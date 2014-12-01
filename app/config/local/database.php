@@ -22,12 +22,12 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '127.0.0.1',
+			'host'      => 'localhost', //127.0.0.1
 			'database'  => 'homestead',
 			'username'  => 'homestead',
 			'password'  => 'secret',
 			'charset'   => 'utf8',
-			'port'		=> '33060',
+			// 'port'		=> '33060',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
 		),
